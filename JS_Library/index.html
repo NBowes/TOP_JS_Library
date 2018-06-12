@@ -1,0 +1,68 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Add or remove your favourite books">
+    <meta name="Sarfraz Anjum" content="">
+    <link rel="icon" href="https://d30y9cdsu7xlg0.cloudfront.net/png/9280-200.png">
+
+    <title>My Library</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="styles.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <main role="main" class="container ">
+            
+        <section id="add-books" class ="m-2 p-2">
+            <h1 class="jumbotron-heading">My Library</h1>
+            <p class="lead text-muted">Add your favourite books to collection.</p>
+            <div class="row m-2">
+                <div class="col-6">
+                    <input type="text" class="form-control" placeholder=" Book Title" id="book-title" required>
+                </div>
+                <div class="col-6">
+                    <input type="text" class="form-control" placeholder="Author Name" id="book-author" required>
+                </div>
+                
+            </div>
+            <span id="alert"></span>
+            <div class="row  m-2">
+                <div class="col-12">
+                    <textarea  class="form-control"placeholder="book description" name="" id="book-description" cols="2" rows="2"></textarea>
+                </div>
+            </div>
+            <button class="btn btn-primary col-4 p-2 m-4" id = "submit-book">Add Book</button>
+            
+            </div>
+
+        </section>
+
+      <hr>
+    
+    <section id="content">
+       <div class="row" id = "book-list"></div>
+    </section>
+                   
+           
+  
+
+    </main>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+   
+    <script src="main.js"></script>
+  </body>
+</html>
